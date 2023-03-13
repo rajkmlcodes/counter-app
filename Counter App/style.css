@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* applying properties to the <main> */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* styling container (small card with shadow effect) */
+.container {
+    background: #fff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    max-width: 600px;
+    padding: 50px;
+
+    /* applying box-shadow to the container */
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+/* counter number area or counter number display */
+.counter {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    margin: 21px;
+}
+
+/* btn-group div styling */
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+/* styling button */
+.btn {
+    background: #641ddd;
+    color: #fff;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* applying hover effcet to all the buttons */
+.btn:hover {
+    cursor: pointer;
+    background: #7d32ff;
+    box-shadow:
+    1px 9.8px 2.2px rgba(0, 0, 0, 0.02),
+    0.8px 8.1px 5.3px rgba(0, 0, 0, 0.028),
+    0.4px 4.5px 10px rgba(0, 0, 0, 0.035),
+    0.2px 2.4px 17.9px rgba(0, 0, 0, 0.042),
+    0.7px 6.9px 33.4px rgba(0, 0, 0, 0.05),
+    6px 61px 80px rgba(0, 0, 0, 0.048);
+}
+
+/* rounded increment/operator button */
+.rounded-btn {
+    border-radius: 100px;
+}
